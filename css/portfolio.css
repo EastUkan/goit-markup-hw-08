@@ -103,7 +103,7 @@ body .modal-open {
 .section-title {
   text-align: center;
   font-weight: 700;
-  font-size: 36px;
+  font-size: 28px;
   line-height: 1.16;
   color: #212121;
 }
@@ -117,6 +117,7 @@ body .modal-open {
 @media screen and (min-width: 1200px) {
   .section-title {
     margin-bottom: 50px;
+    font-size: 36px;
   }
 }
 
@@ -513,6 +514,7 @@ body .modal-open {
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  margin-bottom: 40px;
 }
 
 @media screen and (min-width: 768px) {
@@ -523,12 +525,27 @@ body .modal-open {
   }
 }
 
-.filter-atem {
-  margin-bottom: 50px;
+@media screen and (min-width: 768px) {
+  .portfolio-filter-list {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-bottom: 30px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .portfolio-filter-list {
+    margin-bottom: 50px;
+  }
+}
+
+.portfolio-filter-list li {
+  margin-bottom: 15px;
 }
 
 .filter-atem + .filter-atem {
-  margin-left: 8px;
+  margin-right: 8px;
 }
 
 .button {

@@ -3,17 +3,27 @@
 .portfolio-filter-list {
   display: flex;
   flex-wrap: wrap;
+  margin-bottom: 40px;
 
   @media screen and (min-width: $tablet) {
     justify-content: center;
   }
+
+  @media screen and (min-width: 768px) {
+    justify-content: center;
+    margin-bottom: 30px;
+  }
+  @media screen and (min-width: 1200px) {
+    margin-bottom: 50px;
+  }
+}
+.portfolio-filter-list li {
+  margin-bottom: 15px;
 }
 
 .filter-atem {
-  margin-bottom: 50px;
-
   & + & {
-    margin-left: 8px;
+    margin-right: 8px;
   }
 }
 
