@@ -238,6 +238,7 @@ body .modal-open {
   padding: 0;
   border: none;
   background-color: transparent;
+  cursor: pointer;
 }
 
 .menu-button .icon-cross {
